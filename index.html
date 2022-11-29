@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio (Version 2.1)</title>
-    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="header">
       <div class="container">
         <div class="header-content">
-          
           <!-- navigation menu -->
 
           <nav class="main-nav">
             <a class="logo main-nav__logo" href="./index.html">
-              <span class="logo__web">Web</span>Studio</a>
-            
-              <ul class="main-nav__list list">
-              <li class="main-nav__item"><a class="main-nav__link main-nav__link--current" href="./index.html">Студія</a></li>
-              <li class="main-nav__item"><a class="main-nav__link" href="./portfolio.html">Портфоліо</a></li>
+              <span class="logo__web">Web</span>Studio</a
+            >
+
+            <ul class="main-nav__list list">
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--current" href="./index.html">Студія</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="./portfolio.html">Портфоліо</a>
+              </li>
               <li class="main-nav__item"><a class="main-nav__link" href="#">Контакти</a></li>
             </ul>
           </nav>
-          
+
           <!-- header contacts -->
           <ul class="head-contact">
             <li class="head-contact__item">
@@ -402,8 +406,8 @@
         <div class="footer-container">
           <div class="first-column">
             <a class="logo footer__logo" href="./index.html"
-                ><span class="logo__web">Web</span>Studio</a
-              >
+              ><span class="logo__web">Web</span>Studio</a
+            >
             <div class="address-content">
               <address>
                 <ul class="address">
@@ -466,8 +470,16 @@
           </div>
 
           <form class="subscribe-form">
-            <label class="subscribe-form__label" for="subscribe-mail">Підпишіться на розсилку</label>
-            <input class="subscribe-form__field" type="email" name="subscribe-mail" id="subscribe-mail" placeholder="E-mail"/>
+            <label class="subscribe-form__label" for="subscribe-mail"
+              >Підпишіться на розсилку</label
+            >
+            <input
+              class="subscribe-form__field"
+              type="email"
+              name="subscribe-mail"
+              id="subscribe-mail"
+              placeholder="E-mail"
+            />
             <button class="subscribe-button" type="submit">
               Підписатися
               <svg class="subscribe-button__icon">
@@ -475,10 +487,6 @@
               </svg>
             </button>
           </form>
-
-          
-          </div>
-
         </div>
       </div>
     </footer>
@@ -499,7 +507,7 @@
           </div>
 
           <div class="request-form__field">
-            <label for="tel" class="request-form__label" class="form-label">Телефон</label>
+            <label for="tel" class="request-form__label form-label">Телефон</label>
             <input type="tel" name="tel" id="tel" class="request-form__input" />
             <svg class="request-form__icon">
               <use href="./images/icons.svg#icon-phone"></use>
@@ -527,9 +535,8 @@
           <label class="policy">
             <input class="policy__checkbox" type="checkbox" name="checkbox" id="checkbox" />
             <span class="policy__icon"> </span>
-            Погоджуюся з розсилкою та приймаю &nbsp<a class="policy__terms" href="#"
-              >Умови договору</a
-            >
+            Погоджуюся з розсилкою та приймаю &nbsp;
+            <a class="policy__terms" href="#">Умови договору</a>
           </label>
 
           <button class="button-send-form" type="submit">Відправити</button>
