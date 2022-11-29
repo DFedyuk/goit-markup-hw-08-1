@@ -1,0 +1,28 @@
+// header logo
+
+.logo {
+    color: $pure-black-color;
+    font-family: $logo-font, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    &__web {
+            color: $accent-color;
+        }
+}
+
+.main-nav__logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+//footer logo
+.footer__logo {
+    color: $primary-white-color;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
