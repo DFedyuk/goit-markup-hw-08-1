@@ -1,37 +1,37 @@
-.activity {
-    padding-bottom: 94px;
-}
+// .activity {
+//     padding-bottom: 94px;
+// }
 
-.activity__title {
-    @extend %section-title;
-}
+// .activity__title {
+//     @extend %section-title;
+// }
 
-.activity-list {
-    @extend %list;
-    display: flex;
-    gap: 30px;
-}
+// .activity-list {
+//     @extend %list;
+//     display: flex;
+//     gap: 30px;
+// }
 
-.activity-card {
-    position: relative;
+// .activity-card {
+//     position: relative;
 
-    &__description {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+//     &__description {
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
 
-    padding-top: 27px;
-    padding-bottom: 27px;
-    width: 100%;
-    height: 70px;
+//     padding-top: 27px;
+//     padding-bottom: 27px;
+//     width: 100%;
+//     height: 70px;
 
-    background: rgba(47, 48, 58, 0.8);
-    color: $primary-white-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    }
-}
+//     background: rgba(47, 48, 58, 0.8);
+//     color: $primary-white-color;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 16px;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     }
+// }
